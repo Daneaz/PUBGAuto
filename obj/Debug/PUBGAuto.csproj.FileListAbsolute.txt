@@ -1,0 +1,14 @@
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\bin\Debug\PUBGAuto.exe.config
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\bin\Debug\PUBGAuto.exe
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\bin\Debug\PUBGAuto.pdb
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\PUBGAuto.csprojResolveAssemblyReference.cache
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\MainWindow.g.cs
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\App.g.cs
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\PUBGAuto_MarkupCompile.cache
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\PUBGAuto_MarkupCompile.lref
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\MainWindow.baml
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\PUBGAuto.g.resources
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\PUBGAuto.Properties.Resources.resources
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\PUBGAuto.csproj.GenerateResource.Cache
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\PUBGAuto.exe
+c:\users\dane\documents\visual studio 2015\Projects\PUBGAuto\PUBGAuto\obj\Debug\PUBGAuto.pdb
