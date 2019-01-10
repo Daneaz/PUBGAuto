@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -33,14 +34,41 @@ namespace PUBGAuto
             }
         }
 
+
+
         string gamePath = @".\Steam.exe";
-        String ipAddrServer = "118.200.75.51";
+
         //String ipAddrServer = "127.0.0.1";
         //string gamePath = @"d:\Games\Steam\Steam.exe";
 
 
         string username = "";
         Process startproc = new Process();
+
+
+        public String GetIPAdress()
+        {
+            String line = null;
+            try
+            {   // Open the text file using a stream reader.
+                using (StreamReader sr = new StreamReader("ServerIP.txt"))
+                {
+                    // Read the stream to a string, and write the string to the console.
+                    line = sr.ReadToEnd();
+                    
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error, " + e.ToString());
+            }
+            if (line == null || line == "")
+            {
+                MessageBox.Show("IP Address not found");
+                Environment.Exit(1);
+            }
+            return line;       
+        }
 
         public void Connect(String server, String message)
         {
@@ -103,7 +131,7 @@ namespace PUBGAuto
                 stream.Close();
                 client.Close();
 
-                //}
+                
             }
             catch (ArgumentNullException e)
             {
@@ -197,6 +225,7 @@ namespace PUBGAuto
 
         private async void btnCafe_Click(object sender, RoutedEventArgs e)
         {
+            String ipAddrServer = GetIPAdress();
             if (Process.GetProcessesByName("Steam").Length > 0)
             {
                 this.Close();
